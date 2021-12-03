@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container-fluid {
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

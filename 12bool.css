@@ -234,31 +234,7 @@ body {
 
 /*****& TEXT STYLE UTILS *****/
 
-.no-dec {
-  text-decoration: none;
-}
-
-.txt-und {
-  text-decoration: underline;
-}
-
-.txt-ita {
-  font-style: italic;
-}
-
-.fw-700 {
-  font-weight: 700;
-}
-
-.fw-800 {
-  font-weight: 800;
-}
-
-.fw-900 {
-  font-weight: 900;
-}
-
-/* ^Title Size  */
+/***^ Title Size  ***/
 h1 {
   font-size: 30px;
 }
@@ -281,4 +257,29 @@ h5 {
 
 h6 {
   font-size: 12px;
+}
+
+/***^ Font decoration / style ***/
+.no-dec {
+  text-decoration: none;
+}
+
+.txt-und {
+  text-decoration: underline;
+}
+
+.txt-ita {
+  font-style: italic;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
 }

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* & CONTAINER */
+/*****& CONTAINER *****/
 
 .container-fluid {
   width: 100%;
@@ -17,7 +17,7 @@
   margin: 0 auto;
 }
 
-/* & ROW */
+/*****& ROW *****/
 
 .row {
   display: flex;
@@ -25,7 +25,7 @@
   flex-wrap: wrap;
 }
 
-/* & COLUMN */
+/*****& COLUMN *****/
 
 /* todo - Regole comuni a tutte le colonne */
 
@@ -102,7 +102,7 @@
   max-width: 100%;
 }
 
-/* & OFFSET */
+/*****& OFFSET *****/
 
 .offset-1 {
   margin-left: calc(100% / 12);
@@ -148,7 +148,7 @@
   margin-left: calc(100% / 12 * 11);
 }
 
-/* & DISPLAY UTILITIES */
+/*****& DISPLAY UTILITIES *****/
 
 .d-none {
   display: none;
@@ -166,7 +166,7 @@
   display: block;
 }
 
-/* ^ Flex  */
+/***^ Display Flex  ***/
 
 .d-line-flex {
   display: inline-flex;
@@ -182,9 +182,9 @@
   flex-direction: column;
 }
 
-/* & UTILITIES ALIGNMENT */
+/*****& UTILITIES ALIGNMENT *****/
 
-/* ^ Flex alignement */
+/***^ Flex alignement ***/
 
 .content-start {
   justify-content: flex-start;
@@ -214,9 +214,8 @@
   align-items: flex-end;
 }
 
-/* ^ Text utilities */
+/***^ Text Alignement ***/
 
-/* ~Text algnement */
 .txt-left {
   text-align: left;
 }
@@ -229,9 +228,18 @@
   text-align: right;
 }
 
-/* ~Text Style */
+/*****& TEXT STYLE UTILS *****/
+
 .no-dec {
   text-decoration: none;
+}
+
+.txt-und {
+  text-decoration: underline;
+}
+
+.txt-ita {
+  font-style: italic;
 }
 
 .fw-700 {
@@ -246,7 +254,7 @@
   font-weight: 900;
 }
 
-/* ~Title size  */
+/* ^Title Size  */
 h1 {
   font-size: 30px;
 }

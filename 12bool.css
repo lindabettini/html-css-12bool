@@ -160,7 +160,7 @@
   text-align: end;
 }
 
-/* ! Se non specifichiamo l'align-items, di default ha a.i. STRETCH */
+/* TODO Se non specifichiamo l'align-items, di default ha valore STRETCH (align-items si applica solamente ai figli diretti e non agli elementi - figli dei figli -) */
 .align-start {
   align-items: flex-start;
 }

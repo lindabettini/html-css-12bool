@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* & CONTAINER */
+
 .container-fluid {
   width: 100%;
   max-width: 100%;
@@ -25,19 +27,22 @@
 
 /* & COLUMN */
 
-/* ~ Regole comuni a tutte le colonne */
+/* todo - Regole comuni a tutte le colonne */
+
 [class^="col"] {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: auto;
 }
 
-/* ~ Colonne che si dividono lo spazio equamente */
+/* todo - Colonne che si dividono lo spazio equamente */
+
 .col {
   flex-grow: 1;
 }
 
-/* ~ Colonne che occupano i 12esimi specificati */
+/* todo - Colonne che occupano i 12esimi specificati */
+
 .col-1 {
   flex-basis: calc(100% / 12);
   max-width: calc(100% / 12);
@@ -143,7 +148,43 @@
   margin-left: calc(100% / 12 * 11);
 }
 
+/* & DISPLAY UTILITIES */
+
+.d-none {
+  display: none;
+}
+
+.d-line {
+  display: inline;
+}
+
+.d-line-blk {
+  display: inline-block;
+}
+
+.d-blk {
+  display: block;
+}
+
+/* ^ Flex  */
+
+.d-line-flex {
+  display: inline-flex;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 /* & UTILITIES ALIGNMENT */
+
+/* ^ Flex alignement */
 
 .content-start {
   justify-content: flex-start;
@@ -160,7 +201,7 @@
   text-align: end;
 }
 
-/* TODO Se non specifichiamo l'align-items, di default ha valore STRETCH (align-items si applica solamente ai figli diretti e non agli elementi - figli dei figli -) */
+/* todo - Se non specifichiamo l'align-items, di default ha valore STRETCH (align-items si applica solamente ai figli diretti e non agli elementi - figli dei figli -) */
 .align-start {
   align-items: flex-start;
 }
@@ -171,4 +212,61 @@
 
 .align-end {
   align-items: flex-end;
+}
+
+/* ^ Text utilities */
+
+/* ~Text algnement */
+.txt-left {
+  text-align: left;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+/* ~Text Style */
+.no-dec {
+  text-decoration: none;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+/* ~Title size  */
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14x;
+}
+
+h6 {
+  font-size: 12px;
 }

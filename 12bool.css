@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
 }
 
-/*****& CONTAINER *****/
+/*~**** CONTAINER *****/
 
 .container-fluid {
   width: 100%;
@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
 }
 
-/*****& ROW *****/
+/*~**** ROW *****/
 
 .row {
   display: flex;
@@ -29,9 +29,9 @@ body {
   flex-wrap: wrap;
 }
 
-/*****& COLUMN *****/
+/*~**** COLUMN *****/
 
-/* ~ Regole comuni a tutte le colonne */
+/* < Regole comuni a tutte le colonne */
 
 [class^="col"] {
   flex-grow: 0;
@@ -39,13 +39,13 @@ body {
   flex-basis: auto;
 }
 
-/* ~ Colonne che si dividono lo spazio equamente */
+/* < Colonne che si dividono lo spazio equamente */
 
 .col {
   flex-grow: 1;
 }
 
-/* ~ Colonne che occupano i 12esimi specificati */
+/* < Colonne che occupano i 12esimi specificati */
 
 .col-1 {
   flex-basis: calc(100% / 12);
@@ -106,7 +106,7 @@ body {
   max-width: 100%;
 }
 
-/*****& OFFSET *****/
+/*~**** OFFSET *****/
 
 .offset-1 {
   margin-left: calc(100% / 12);
@@ -152,7 +152,7 @@ body {
   margin-left: calc(100% / 12 * 11);
 }
 
-/*****& DISPLAY UTILITIES *****/
+/*~**** DISPLAY UTILITIES *****/
 
 .d-none {
   display: none;
@@ -170,7 +170,7 @@ body {
   display: block;
 }
 
-/***^ Display Flex  ***/
+/*ç** Display Flex  ***/
 
 .d-line-flex {
   display: inline-flex;
@@ -186,9 +186,9 @@ body {
   flex-direction: column;
 }
 
-/*****& ALIGNMENT UTILITIES *****/
+/*~**** ALIGNMENT UTILITIES *****/
 
-/***^ Flex alignement ***/
+/*ç** Flex alignement ***/
 
 .content-start {
   justify-content: flex-start;
@@ -217,7 +217,7 @@ body {
   justify-content: space-evenly;
 }
 
-/* ~ Se non specifichiamo l'align-items, di default ha valore STRETCH (align-items si applica solamente ai figli diretti e non agli elementi - figli dei figli -) */
+/* < Se non specifichiamo l'align-items, di default ha valore STRETCH (align-items si applica solamente ai figli diretti e non agli elementi - figli dei figli -) */
 
 .align-start {
   align-items: flex-start;
@@ -231,7 +231,7 @@ body {
   align-items: flex-end;
 }
 
-/* ~Self */
+/* <Self */
 
 .self-start {
   align-self: flex-start;
@@ -245,7 +245,7 @@ body {
   align-self: flex-end;
 }
 
-/***^ Text Alignement ***/
+/*ç** Text Alignement ***/
 
 .txt-left {
   text-align: left;
@@ -259,9 +259,10 @@ body {
   text-align: right;
 }
 
-/*****& TEXT STYLE UTILS *****/
+/*~**** TEXT STYLE UTILS *****/
 
-/***^ Title Size  ***/
+/*ç** Title Size  ***/
+
 h1 {
   font-size: 30px;
 }
@@ -286,7 +287,7 @@ h6 {
   font-size: 12px;
 }
 
-/***^ Font decoration / style ***/
+/*ç** Font decoration - style ***/
 
 .no-dec {
   text-decoration: none;

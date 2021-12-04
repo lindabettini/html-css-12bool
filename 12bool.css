@@ -224,6 +224,20 @@ body {
   align-items: flex-end;
 }
 
+/* ~Self */
+
+.self-start {
+  align-self: flex-start;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
 /***^ Text Alignement ***/
 
 .txt-left {

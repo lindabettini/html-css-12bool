@@ -31,6 +31,12 @@ body {
 
 /*****& COLUMN *****/
 
+#column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 /* todo - Regole comuni a tutte le colonne */
 
 [class^="col"] {

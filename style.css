@@ -6,6 +6,9 @@ section {
   height: 50px;
   line-height: 50px;
   vertical-align: middle;
+  margin: 1px;
+  color: white;
+  font-weight: bold;
 }
 
 [class^="col"] {
@@ -25,4 +28,9 @@ section {
 .pad-side-10 {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#pink-column .col-12 {
+  background-color: pink;
+  flex-basis: 100px;
 }

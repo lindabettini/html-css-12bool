@@ -31,7 +31,7 @@ body {
 
 /*****& COLUMN *****/
 
-/* todo - Regole comuni a tutte le colonne */
+/* ~ Regole comuni a tutte le colonne */
 
 [class^="col"] {
   flex-grow: 0;
@@ -39,13 +39,13 @@ body {
   flex-basis: auto;
 }
 
-/* todo - Colonne che si dividono lo spazio equamente */
+/* ~ Colonne che si dividono lo spazio equamente */
 
 .col {
   flex-grow: 1;
 }
 
-/* todo - Colonne che occupano i 12esimi specificati */
+/* ~ Colonne che occupano i 12esimi specificati */
 
 .col-1 {
   flex-basis: calc(100% / 12);
@@ -217,7 +217,7 @@ body {
   justify-content: space-evenly;
 }
 
-/* todo - Se non specifichiamo l'align-items, di default ha valore STRETCH (align-items si applica solamente ai figli diretti e non agli elementi - figli dei figli -) */
+/* ~ Se non specifichiamo l'align-items, di default ha valore STRETCH (align-items si applica solamente ai figli diretti e non agli elementi - figli dei figli -) */
 
 .align-start {
   align-items: flex-start;
@@ -287,6 +287,7 @@ h6 {
 }
 
 /***^ Font decoration / style ***/
+
 .no-dec {
   text-decoration: none;
 }

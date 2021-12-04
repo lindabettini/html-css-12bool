@@ -31,12 +31,6 @@ body {
 
 /*****& COLUMN *****/
 
-#column {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 /* todo - Regole comuni a tutte le colonne */
 
 [class^="col"] {
@@ -211,7 +205,20 @@ body {
   text-align: end;
 }
 
+.content-space-a {
+  justify-content: space-around;
+}
+
+.content-space-btn {
+  justify-content: space-between;
+}
+
+.content-space-evl {
+  justify-content: space-evenly;
+}
+
 /* todo - Se non specifichiamo l'align-items, di default ha valore STRETCH (align-items si applica solamente ai figli diretti e non agli elementi - figli dei figli -) */
+
 .align-start {
   align-items: flex-start;
 }

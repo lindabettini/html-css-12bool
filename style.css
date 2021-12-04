@@ -34,3 +34,8 @@ section {
   background-color: pink;
   flex-basis: 100px;
 }
+
+#orange-column .col-12 {
+  background-color: salmon;
+  flex-basis: 50px;
+}

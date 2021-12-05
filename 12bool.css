@@ -108,6 +108,10 @@ body {
 
 /*~**** OFFSET *****/
 
+.offset-0 {
+  margin-left: 0;
+}
+
 .offset-1 {
   margin-left: calc(100% / 12);
 }
@@ -382,6 +386,9 @@ h6 {
 
   /* & Offset  */
 
+  .offset-sm-0 {
+    margin-left: 0;
+  }
   .offset-sm-1 {
     margin-left: calc(100% / 12);
   }
@@ -490,6 +497,10 @@ h6 {
   }
 
   /* & Offset  */
+
+  .offset-md-0 {
+    margin-left: 0;
+  }
 
   .offset-md-1 {
     margin-left: calc(100% / 12);

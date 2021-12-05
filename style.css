@@ -3,20 +3,20 @@ section {
 }
 
 .row {
-  min-height: 50px;
-  line-height: 50px;
-  vertical-align: middle;
-  margin: 1px;
+  /* margin: 1px; */
   color: white;
   font-weight: bold;
 }
 
 [class^="col"] {
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
   border: 1px solid white;
   background-color: lightseagreen;
 }
 
-[class^="col"].nested {
+.nested {
   height: 30px;
   line-height: 30px;
   vertical-align: middle;
@@ -30,6 +30,6 @@ section {
   padding-right: 10px;
 }
 
-#col-alignemt-ex .row {
-  height: 80px;
+#col-alignemt-ex .col-6.big-col {
+  height: 100px;
 }

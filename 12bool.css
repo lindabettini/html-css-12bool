@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 /*~**** CONTAINER *****/
@@ -311,27 +312,27 @@ body {
 /*ç** Title Size  ***/
 
 h1 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 h5 {
-  font-size: 14x;
+  font-size: 20x;
 }
 
 h6 {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /*ç** Font decoration - style ***/
@@ -520,6 +521,140 @@ h6 {
     padding-left: 30px;
     padding-right: 30px;
   }
+  /*~**** DISPLAY UTILITIES *****/
+
+  .sm-d-none {
+    display: none;
+  }
+
+  .sm-d-line {
+    display: inline;
+  }
+
+  .sm-d-line-blk {
+    display: inline-block;
+  }
+
+  .sm-d-blk {
+    display: block;
+  }
+
+  /*ç** Display Flex  ***/
+
+  .sm-d-line-flex {
+    display: inline-flex;
+  }
+
+  .sm-d-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sm-d-flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*~**** ALIGNMENT UTILITIES *****/
+
+  /*ç** Flex alignement ***/
+
+  .sm-content-start {
+    justify-content: flex-start;
+  }
+
+  .sm-content-center {
+    justify-content: center;
+  }
+
+  .sm-content-end {
+    justify-content: flex-end;
+  }
+
+  .sm-content-space-a {
+    justify-content: space-around;
+  }
+
+  .sm-content-space-btn {
+    justify-content: space-between;
+  }
+
+  .sm-content-space-evl {
+    justify-content: space-evenly;
+  }
+
+  /**
+ *< Se non specifichiamo l'ALIGN-ITEMS, questo di default ha valore STRETCH
+ *< align-items si applica solamente ai figli diretti
+ *< e non agli elementi - figli dei figli -)
+ */
+  .sm-align-start {
+    align-items: flex-start;
+  }
+
+  .sm-align-center {
+    align-items: center;
+  }
+
+  .sm-align-end {
+    align-items: flex-end;
+  }
+
+  /* < Self */
+
+  .sm-self-start {
+    align-self: flex-start;
+  }
+
+  .sm-self-center {
+    align-self: center;
+  }
+
+  .sm-self-end {
+    align-self: flex-end;
+  }
+
+  /*ç** Text Alignement ***/
+
+  .sm-txt-left {
+    text-align: left;
+  }
+
+  .sm-txt-center {
+    text-align: center;
+  }
+
+  .sm-txt-right {
+    text-align: right;
+  }
+
+  /*~**** TEXT STYLE UTILS *****/
+
+  /*ç** Title Size  ***/
+
+  h1.sm {
+    font-size: 30px;
+  }
+
+  h2.sm {
+    font-size: 28px;
+  }
+
+  h3.sm {
+    font-size: 24px;
+  }
+
+  h4.sm {
+    font-size: 20px;
+  }
+
+  h5.sm {
+    font-size: 18px;
+  }
+
+  h6.sm {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -681,6 +816,140 @@ h6 {
     padding-left: 30px;
     padding-right: 30px;
   }
+  /*~**** DISPLAY UTILITIES *****/
+
+  .md-d-none {
+    display: none;
+  }
+
+  .md-d-line {
+    display: inline;
+  }
+
+  .md-d-line-blk {
+    display: inline-block;
+  }
+
+  .md-d-blk {
+    display: block;
+  }
+
+  /*ç** Display Flex  ***/
+
+  .md-d-line-flex {
+    display: inline-flex;
+  }
+
+  .md-d-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .md-d-flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*~**** ALIGNMENT UTILITIES *****/
+
+  /*ç** Flex alignement ***/
+
+  .md-content-start {
+    justify-content: flex-start;
+  }
+
+  .md-content-center {
+    justify-content: center;
+  }
+
+  .md-content-end {
+    justify-content: flex-end;
+  }
+
+  .md-content-space-a {
+    justify-content: space-around;
+  }
+
+  .md-content-space-btn {
+    justify-content: space-between;
+  }
+
+  .md-content-space-evl {
+    justify-content: space-evenly;
+  }
+
+  /**
+   *< Se non specifichiamo l'ALIGN-ITEMS, questo di default ha valore STRETCH
+   *< align-items si applica solamente ai figli diretti
+   *< e non agli elementi - figli dei figli -)
+   */
+  .md-align-start {
+    align-items: flex-start;
+  }
+
+  .md-align-center {
+    align-items: center;
+  }
+
+  .md-align-end {
+    align-items: flex-end;
+  }
+
+  /* < Self */
+
+  .md-self-start {
+    align-self: flex-start;
+  }
+
+  .md-self-center {
+    align-self: center;
+  }
+
+  .md-self-end {
+    align-self: flex-end;
+  }
+
+  /*ç** Text Alignement ***/
+
+  .md-txt-left {
+    text-align: left;
+  }
+
+  .md-txt-center {
+    text-align: center;
+  }
+
+  .md-txt-right {
+    text-align: right;
+  }
+
+  /*~**** TEXT STYLE UTILS *****/
+
+  /*ç** Title Size  ***/
+
+  h1.md {
+    font-size: 30px;
+  }
+
+  h2.md {
+    font-size: 28px;
+  }
+
+  h3.md {
+    font-size: 24px;
+  }
+
+  h4.md {
+    font-size: 20px;
+  }
+
+  h5.md {
+    font-size: 18px;
+  }
+
+  h6.md {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -840,6 +1109,140 @@ h6 {
   .row.g-lg-3 > [class^="col"] {
     padding-left: 30px;
     padding-right: 30px;
+  }
+  /*~**** DISPLAY UTILITIES *****/
+
+  .lg-d-none {
+    display: none;
+  }
+
+  .lg-d-line {
+    display: inline;
+  }
+
+  .lg-d-line-blk {
+    display: inline-block;
+  }
+
+  .lg-d-blk {
+    display: block;
+  }
+
+  /*ç** Display Flex  ***/
+
+  .lg-d-line-flex {
+    display: inline-flex;
+  }
+
+  .lg-d-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lg-d-flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*~**** ALIGNMENT UTILITIES *****/
+
+  /*ç** Flex alignement ***/
+
+  .lg-content-start {
+    justify-content: flex-start;
+  }
+
+  .lg-content-center {
+    justify-content: center;
+  }
+
+  .lg-content-end {
+    justify-content: flex-end;
+  }
+
+  .lg-content-space-a {
+    justify-content: space-around;
+  }
+
+  .lg-content-space-btn {
+    justify-content: space-between;
+  }
+
+  .lg-content-space-evl {
+    justify-content: space-evenly;
+  }
+
+  /**
+   *< Se non specifichiamo l'ALIGN-ITEMS, questo di default ha valore STRETCH
+   *< align-items si applica solamente ai figli diretti
+   *< e non agli elementi - figli dei figli -)
+   */
+  .lg-align-start {
+    align-items: flex-start;
+  }
+
+  .lg-align-center {
+    align-items: center;
+  }
+
+  .lg-align-end {
+    align-items: flex-end;
+  }
+
+  /* < Self */
+
+  .lg-self-start {
+    align-self: flex-start;
+  }
+
+  .lg-self-center {
+    align-self: center;
+  }
+
+  .lg-self-end {
+    align-self: flex-end;
+  }
+
+  /*ç** Text Alignement ***/
+
+  .lg-txt-left {
+    text-align: left;
+  }
+
+  .lg-txt-center {
+    text-align: center;
+  }
+
+  .lg-txt-right {
+    text-align: right;
+  }
+
+  /*~**** TEXT STYLE UTILS *****/
+
+  /*ç** Title Size  ***/
+
+  h1.lg {
+    font-size: 30px;
+  }
+
+  h2.lg {
+    font-size: 28px;
+  }
+
+  h3.lg {
+    font-size: 24px;
+  }
+
+  h4.lg {
+    font-size: 20px;
+  }
+
+  h5.lg {
+    font-size: 18px;
+  }
+
+  h6.lg {
+    font-size: 16px;
   }
 }
 
@@ -1001,5 +1404,112 @@ h6 {
   .row.g-xl-3 > [class^="col"] {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  /*~**** DISPLAY UTILITIES *****/
+
+  .xl-d-none {
+    display: none;
+  }
+
+  .xl-d-line {
+    display: inline;
+  }
+
+  .xl-d-line-blk {
+    display: inline-block;
+  }
+
+  .xl-d-blk {
+    display: block;
+  }
+
+  /*ç** Display Flex  ***/
+
+  .xl-d-line-flex {
+    display: inline-flex;
+  }
+
+  .xl-d-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .xl-d-flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*~**** ALIGNMENT UTILITIES *****/
+
+  /*ç** Flex alignement ***/
+
+  .xl-content-start {
+    justify-content: flex-start;
+  }
+
+  .xl-content-center {
+    justify-content: center;
+  }
+
+  .xl-content-end {
+    justify-content: flex-end;
+  }
+
+  .xl-content-space-a {
+    justify-content: space-around;
+  }
+
+  .xl-content-space-btn {
+    justify-content: space-between;
+  }
+
+  .xl-content-space-evl {
+    justify-content: space-evenly;
+  }
+
+  /**
+   *< Se non specifichiamo l'ALIGN-ITEMS, questo di default ha valore STRETCH
+   *< align-items si applica solamente ai figli diretti
+   *< e non agli elementi - figli dei figli -)
+   */
+  .xl-align-start {
+    align-items: flex-start;
+  }
+
+  .xl-align-center {
+    align-items: center;
+  }
+
+  .xl-align-end {
+    align-items: flex-end;
+  }
+
+  /* < Self */
+
+  .xl-self-start {
+    align-self: flex-start;
+  }
+
+  .xl-self-center {
+    align-self: center;
+  }
+
+  .xl-self-end {
+    align-self: flex-end;
+  }
+
+  /*ç** Text Alignement ***/
+
+  .xl-txt-left {
+    text-align: left;
+  }
+
+  .xl-txt-center {
+    text-align: center;
+  }
+
+  .xl-txt-right {
+    text-align: right;
   }
 }

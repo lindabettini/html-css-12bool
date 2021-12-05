@@ -307,34 +307,6 @@ body {
   text-align: right;
 }
 
-/*~**** TEXT STYLE UTILS *****/
-
-/*ç** Title Size  ***/
-
-h1 {
-  font-size: 40px;
-}
-
-h2 {
-  font-size: 32px;
-}
-
-h3 {
-  font-size: 28px;
-}
-
-h4 {
-  font-size: 24px;
-}
-
-h5 {
-  font-size: 20x;
-}
-
-h6 {
-  font-size: 16px;
-}
-
 /*ç** Font decoration - style ***/
 
 .no-dec {
@@ -627,34 +599,6 @@ h6 {
   .sm-txt-right {
     text-align: right;
   }
-
-  /*~**** TEXT STYLE UTILS *****/
-
-  /*ç** Title Size  ***/
-
-  h1.sm {
-    font-size: 30px;
-  }
-
-  h2.sm {
-    font-size: 28px;
-  }
-
-  h3.sm {
-    font-size: 24px;
-  }
-
-  h4.sm {
-    font-size: 20px;
-  }
-
-  h5.sm {
-    font-size: 18px;
-  }
-
-  h6.sm {
-    font-size: 16px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -922,34 +866,6 @@ h6 {
   .md-txt-right {
     text-align: right;
   }
-
-  /*~**** TEXT STYLE UTILS *****/
-
-  /*ç** Title Size  ***/
-
-  h1.md {
-    font-size: 30px;
-  }
-
-  h2.md {
-    font-size: 28px;
-  }
-
-  h3.md {
-    font-size: 24px;
-  }
-
-  h4.md {
-    font-size: 20px;
-  }
-
-  h5.md {
-    font-size: 18px;
-  }
-
-  h6.md {
-    font-size: 16px;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1215,34 +1131,6 @@ h6 {
 
   .lg-txt-right {
     text-align: right;
-  }
-
-  /*~**** TEXT STYLE UTILS *****/
-
-  /*ç** Title Size  ***/
-
-  h1.lg {
-    font-size: 30px;
-  }
-
-  h2.lg {
-    font-size: 28px;
-  }
-
-  h3.lg {
-    font-size: 24px;
-  }
-
-  h4.lg {
-    font-size: 20px;
-  }
-
-  h5.lg {
-    font-size: 18px;
-  }
-
-  h6.lg {
-    font-size: 16px;
   }
 }
 
